@@ -1,0 +1,67 @@
+body {
+	margin: 0;
+	padding: 0;
+	min-width: 200px;
+	min-height: 100px;
+	background-color: #222;
+}
+
+p {
+	margin-top: 100px;
+}
+
+img {
+	width: 240px;
+	height: 251px;
+	float: left;
+	position: 0 auto;
+	margin: 10px 10px 10px 5px;
+	-webkit-border-radius: 550px;
+}
+
+/* Filters */
+
+.saturate:hover {
+	-webkit-filter: saturate(5);
+	-webkit-transition: 1s;
+}
+
+.grayscale:hover {
+	-webkit-filter: grayscale(100%);
+	-webkit-transition: 1s;
+}
+
+.contrast:hover {
+	-webkit-filter: contrast(200%);
+	-webkit-transition: 1s;
+}
+
+.brightness:hover{
+	-webkit-filter: brightness(8.25);
+	-webkit-transition: 1s;
+}
+
+.blur:hover {
+	-webkit-filter: blur(1px);
+	-webkit-transition: 1s;
+}
+
+.invert:hover {
+	-webkit-filter: invert(90%);
+	-webkit-transition: 5s;
+}
+
+.sepia:hover {
+	-webkit-filter: sepia(100%);
+	-webkit-transition: 1s;
+}
+
+.huerotate:hover{
+	-webkit-filter: hue-rotate(1040deg);
+	-webkit-transition: 4s;
+}
+
+.rss.opacity:hover {	
+	-webkit-filter: opacity(50%);
+	-webkit-transition: 1s;
+}
